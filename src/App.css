@@ -1,38 +1,101 @@
-.App {
+.header {
   text-align: center;
+  margin: 0 auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-top {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 50px;
+  background-color: rgb(21, 64, 92);
+  color: rgb(253, 202, 107);
+  font-size: 22px;
+  padding-right: 40px;
+}
+
+.header-logo {
+  display: block;
+  position: relative;
+  margin-left: 30px;
+}
+
+.header-logo::before {
+  content: "";
+  position: absolute;
+  background-image: url("./logo.svg");
+  width: 30px;
+  height: 30px;
+  left: 90px;
+  top: 23px;
+}
+
+.header-logo img .header-name .comInfo {
+  color: yellowgreen;
+}
+
+.header-menu {
+  min-width: 100px;
+}
+
+ul li {
+  display: inline;
+  padding: 80px;
+  font-size: 20px;
+  font-weight: 500;
+  color: darkgreen;
+}
+
+.menu-link {
+  color: darkolivegreen;
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  color: orange;
+  font-weight: 600;
+}
+
+.footer {
+  background: rgb(21, 64, 92);
+  padding-top: 35px;
+  padding-bottom: 40px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-copyright {
+  color: #f8a63af5;
+  line-height: 1.3; /*высота строки*/
+}
+
+.footer-copyright-name {
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-copyright p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.footer-icons-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons p {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.3;
+  color: #f8a63af5;
+}
+/*выбор элементов 1 уровень вложенности относительно указанного класса и выбор соседа слева * */
+.footer-icon-link > * + * {
+  margin-left: 30px;
 }
