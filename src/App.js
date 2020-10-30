@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import './App.css';
+import HeaderCom from "./header/header";
 
 function App() {
   return (
