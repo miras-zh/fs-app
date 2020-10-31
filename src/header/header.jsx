@@ -6,7 +6,7 @@ const HeaderCom = () => {
     <div className='header'>
         <div className='header-top'>
           <div className="header-logo">
-            <p>ComInfo</p>
+            <p><a href='#'>ComInfo</a></p>
           </div>
           
           <div className="header-tel">

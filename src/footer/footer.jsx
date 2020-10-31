@@ -8,16 +8,16 @@ const Footercom = () => {
         <div class="footer-row">
           <div class="footer-copyright">
             <div class="footer-copyright-name">COMINFO</div>
-            <p>Сопровождение вашего бизнеса</p>
+            <p>Аудит и Сопровождение бизнеса</p>
           </div>
           <div class="footer-icons">
             <p>Мы в социальных сетях</p>
             <div class="footer-icon-link">
-              <a href="#"><img src="./img/footer/facebook-f 1.svg" /></a>
-              <a href="#"><img src="./img/footer/instagram 1.svg" /></a>
-              <a href="#"><img src="./img/footer/linkedin-in-brands.svg" /></a>
-              <a href="#"><img src="./img/footer/github-brands.svg" /></a>
-              <a href="#"><img src="./img/footer/vk-brands 1.svg" /></a>
+              <a href="#"><img src="./../logo2.png" /></a>
+              <a href="#"><img src="./../logo.svg" /></a>
+              <a href="#"><img src="./../logo.svg" /></a>
+              <a href="#"><img src="./../logo.svg"/></a>
+              <a href="#"><img src="./../logo.svg" /></a>
             </div>
           </div>
         </div>

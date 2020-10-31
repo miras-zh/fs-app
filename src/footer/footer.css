@@ -14,6 +14,7 @@
   .footer-copyright {
     color: #f8a63af5;
     line-height: 1.3; 
+    margin-left: 10px;
   }
   
   .footer-copyright-name {
@@ -28,6 +29,10 @@
     font-weight: 600;
   }
   
+  .footer-icons {
+    margin-right: 35px;
+  }
+
   .footer-icons-link {
     display: flex;
     align-items: center;
