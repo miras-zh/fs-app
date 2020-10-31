@@ -1,0 +1,59 @@
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(21, 64, 92);
+    color: rgb(253, 202, 107);
+    font-size: 22px;
+    padding-right: 40px;
+  }
+  
+  .header-logo {
+    display: block;
+    position: relative;
+    margin-left: 30px;
+  }
+  
+  .header-logo::before {
+    content: "";
+    position: absolute;
+    background-image: url("./../logo.svg");
+    width: 30px;
+    height: 30px;
+    left: 100px;
+    top: 23px;
+  }
+  
+  .header-logo img .header-name .comInfo {
+    color: yellowgreen;
+  }
+  
+  .header-menu {
+    min-width: 100px;
+  }
+  
+  ul li {
+    display: inline;
+    padding: 80px;
+    font-size: 20px;
+    font-weight: 500;
+    color: darkgreen;
+  }
+  
+  .menu-link {
+    color: darkolivegreen;
+    text-decoration: none;
+  }
+  
+  
+.menu-link:hover {
+  color: orange;
+  font-weight: 600;
+}
