@@ -2,6 +2,7 @@
   text-align: center;
   margin: 0 auto;
 }
+
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -48,6 +49,38 @@ ul li {
 .menu-link {
   color: darkolivegreen;
   text-decoration: none;
+}
+
+.home{
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+.home-slider {
+  border: 1px solid rgba(47, 45, 45, 0.692);
+  text-align: center;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.home-slider-img{
+  width: 40%;
+}
+
+.home-about {
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.home-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-text-items {
+  text-align: center;
+  font-size: 18px;
 }
 
 .menu-link:hover {
