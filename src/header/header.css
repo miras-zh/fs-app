@@ -2,14 +2,21 @@
 .header {
     text-align: center;
     margin: 0 auto;
+   
   }
-  
+  .header-wrapper {
+    background-color: rgb(21, 64, 92);  
+   
+    border: 1px solid red;
+  }
   .header-top {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    background-color: rgb(21, 64, 92);
     color: rgb(253, 202, 107);
     font-size: 22px;
     padding-right: 40px;
@@ -38,6 +45,17 @@
   
   .header-logo img .header-name .comInfo {
     color: yellowgreen;
+  }
+  
+  .header-tel-text::before{
+    content: "";
+    position: absolute;
+    background-image: url("./../tel.svg");
+    background-repeat:cover;
+    width: 30px;
+    height: 30px;
+    left: 100px;
+    top: 23px;
   }
   
   .header-menu {
