@@ -25,6 +25,11 @@ const HeaderCom = () => {
               <a href="/contacts" className="menu-link">
                 Контакты
               </a>     
+          </li>
+          <li>
+              <a href="/contacts" className="menu-link">
+                Прайс
+              </a>     
             </li>
           </ul>
         </div>
